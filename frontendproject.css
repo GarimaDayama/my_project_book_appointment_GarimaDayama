@@ -1,0 +1,164 @@
+/* Change the background color to brown */
+.navbar {
+    background-color: #9c5f33df !important; /* SaddleBrown hex code */
+}
+
+/* Change link text color to white so it's readable on brown */
+.navbar .nav-link {
+    color: white !important;
+}
+
+/* Change the 'Concept House' brand text color to white */
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+/* Change the color of the hamburger icon (mobile) to white */
+.navbar-toggler {
+    border-color: rgba(255,255,255,0.1) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3Base path fill='rgba(255, 255, 255, 1)' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+
+/* Change the background color of the dropdown box */
+.dropdown-menu {
+    background-color: #cc9b77 !important; /* A darker coffee brown */
+    border: none; /* Removes the default border */
+}
+
+/* Change the text color of the items inside the dropdown */
+.dropdown-item {
+    color: white !important;
+}
+
+/* Change the background when you hover over a dropdown item */
+.dropdown-item:hover {
+    background-color: #71411e !important; /* Lighter brown on hover */
+    color: #ffffff !important;
+}
+
+/* Custom styling for the Login Button */
+.btn-login-custom {
+    /* Positioning */
+    position: absolute; 
+    right: 30px; 
+    top: 30px; 
+    z-index: 10;
+
+    /* Colors */
+    background-color: #f5f5dc; /* Beige color */
+    color: #800000;            /* Maroon color */
+    border: 1px solid #dcdcdc; /* Subtle border to define the beige */
+
+    /* Size and Padding */
+    padding: 12px 25px;        /* Makes the button "a little big" */
+    font-size: 1.1rem;         /* Increases text size */
+    border-radius: 5px;        /* Slightly rounded corners */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect so the user knows it is clickable */
+.btn-login-custom:hover {
+    background-color: #e8e8c8; /* Slightly darker beige on hover */
+    color: #600000;            /* Darker maroon on hover */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Styling for the helper section */
+.text-maroon {
+    color: maroon;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btn-maroon {
+    background-color: maroon;
+    color: white;
+    border: 1px solid #800000;
+    padding: 10px 25px;
+    transition: 0.3s;
+}
+
+.btn-maroon:hover {
+    background-color: #600000;
+    color: #f5f5dc; /* Beige text on hover */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Extra padding for the container to separate from other sections */
+.border-top {
+    border-top: 1px solid #dee2e6 !important;
+}
+
+/* Target the images inside the carousel */
+.carousel-item img {
+    width: 500px !important;
+    height: 600px !important;
+    object-fit: cover; /* This prevents stretching */
+    margin: 0 auto;    /* Centers the image if the modal is wider than 600px */
+}
+
+/* Optional: Adjust the modal size to fit the 600px image perfectly */
+.modal-dialog {
+    max-width: 630px; /* 600px + some padding */
+}
+
+                                  /* FOOTER*/
+
+
+    /* Footer Styles */
+.main-footer {
+    background-color: #1a1a1a;
+    color: #d3d3d3;
+    padding-top: 60px;
+    border-top: 7px solid rgba(128, 0, 0, 0.873);
+}
+
+.footer-logo {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    color: #bcbcbc;
+    text-decoration: none;
+    transition: 0.3s;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-link:hover {
+    color: maroon;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.social-icons a {
+    color: white;
+    background: #363333;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: maroon;
+    transform: translateY(-3px);
+}
+
+.copyright-bar {
+    background-color: #1f1e1e;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
