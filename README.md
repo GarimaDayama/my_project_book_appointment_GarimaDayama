@@ -65,8 +65,3 @@ To view or run this project locally on your machine, follow these simple steps:
 
 
 * **Password**: Any password with $\ge 5$ characters
-
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
